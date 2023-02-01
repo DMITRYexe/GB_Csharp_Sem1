@@ -5,8 +5,11 @@ string? s;
 s = Console.ReadLine();
 int a;
 a = Convert.ToInt32(s);
-checked
+Console.Write("Ответ: ");
+checked // проверка на соблюдение возможноного диапазоне
 {
-  Console.WriteLine(a * a);
+  Console.WriteLine(a * a); // первый вариант кода 
 }
+Console.Write("Проверка: ");
+Console.WriteLine(Math.Pow(a, 2)); // второй вариант кода
 
