@@ -2,8 +2,11 @@
 
 Console.Write("Введите число для возведения его в квадрат: ");
 string? s;
-s=Console.ReadLine();
+s = Console.ReadLine();
 int a;
-a=Convert.ToInt32(s);
-Console.WriteLine(a*a);
+a = Convert.ToInt32(s);
+checked
+{
+  Console.WriteLine(a * a);
+}
 
