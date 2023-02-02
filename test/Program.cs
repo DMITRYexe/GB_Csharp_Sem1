@@ -1,7 +1,7 @@
 ﻿    // 11. Дано число больше 9. Вывести на экран  вторую цифру числа с конца.
     Console.WriteLine("Привет! Данная программа выводит вторую цифру в числах больше 9.");
     Console.WriteLine("Введите число: ");
-    int i, n, count, n2, answ; // Вводим переменные
+    int i, n, count, n2; // Вводим переменные
     n = 10;
     count = 1;
     i = Convert.ToInt32(Console.ReadLine());
@@ -21,5 +21,4 @@
       n2 = (int)Math.Pow(10, count);
     } while (i > 100);
     Console.WriteLine(count + "," + n2 + "," + i);
-  string? ai = Console.ReadLine();
-Console.WriteLine(ai.Remove(0,1));
+
