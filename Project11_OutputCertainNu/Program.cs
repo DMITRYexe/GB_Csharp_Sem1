@@ -7,7 +7,7 @@ count = 1;
 i = Convert.ToInt32(Console.ReadLine());
 if (i > 99)
 {
-  while (n < i) // Считаем сколько цифр в чилсе
+  while (n < i) // Считаем сколько цифр в числе
   {
     n = n * 10;
     count = count + 1; // общее кол-во цифр
