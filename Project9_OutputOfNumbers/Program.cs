@@ -1,5 +1,5 @@
 ﻿// 9. Вывести на экран четные числа от 1 до N
-Console.WriteLine("Привет! Это ПО выводит четные числа от 1 до N");
+Console.WriteLine("Привет! Это ПО выводит целые четные числа от 1 до N");
 Console.WriteLine("Введи N, где N - целое число: ");
 int i = 2, N;
 N = Convert.ToInt32(Console.ReadLine());
